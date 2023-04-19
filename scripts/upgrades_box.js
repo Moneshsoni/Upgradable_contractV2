@@ -1,5 +1,4 @@
 const { ethers, upgrades } = require('hardhat');
-
 async function main () {
   const BoxV2 = await ethers.getContractFactory('BoxV2');
   console.log('Upgrading Box...');
